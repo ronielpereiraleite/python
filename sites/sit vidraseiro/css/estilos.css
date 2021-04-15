@@ -1,0 +1,292 @@
+﻿@charset "UTF-8";
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+</style>
+
+@font-face{
+	font-family: 'FonteLogo';
+	src: url("_fonts/bubblegum-sans-regular.otf");
+	
+	
+}
+
+figcaption{
+	/*background-color:rgb(50,230,230);*/
+	color:rgb(44,176,233);
+	}
+	
+a{
+	/*
+	background-color:rgb(0, 250, 200);
+	*/
+	color:black;
+	}
+	
+body{
+	font-family: Arial, sans-serif;
+	background-color: #dddddd;
+	color: blink;
+		} 
+		
+		
+div#interface{
+			width: 900px;
+			background-color: #ffffff;
+			margin: -10px auto 0px auto; /* valores para colocar margens no site sendo os valores auto --> como altomatico da direita e esquerda e o restante a parte de cima e a de baixo*/
+			box-shadow: 0px 0px 10px rgb(0,0,0,0.5); /* sombra do objeto/pagina*/
+			padding: 10px 10px 10px 10px; /*espaço do testo em relação as bordas*/
+			
+		}
+		
+	 p{
+	 
+		text-align: justify;
+		text-indent: 50px;
+	 
+	 }
+	 
+	 a{
+		 color: #606060;
+		 text-decoration: none;
+	 }
+	 a:hover{
+		 text-decoration: underline;
+		 color: blue;
+	 }
+	
+header#cabecalho img#icone{
+			/*posição do oclus*/
+		 position: absolute;
+		 left:950px;
+		 top:70px;
+	 
+	 }
+
+
+header#cabecalho{
+	border-bottom: 1px#606060 solid; /*trasso dividindo o cabeçalho*/
+	height: 150px; /* tamanho do cabeçalho*/
+	background: url("_imagens/glass-logo-peq.jpg")no-repeat 0px 100px; /*faz uma imagem virar logomarca e apartir do parentese e para não repetir a imagem*/
+	}
+	
+	
+header#cabecalho h1{
+
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding: 0px;
+	margin-bottom: 0px,
+	
+}
+
+header#cabecalho h2{
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color: #688888;
+	font-size: 15pt;
+	padding: 0px;
+	margin-top: 0px;
+
+}
+	
+	 /* formatação de imagens*/
+		 /* formatação para a classe figure foto legenda */
+	 figure.foto-legenda{
+		 position: relative;
+		 border: 08px solid white;
+		 box-shadow: 1px 1px 4px black;
+		 
+	 }
+	 figure.foto-legenda img{
+		 width: 100% ;
+		 height: 100%;
+		 
+	 }
+	 figure.foto-legenda figcaption{
+		 opacity:0;  /* faz sumir o texto temporariamente*/
+	 position: absolute;
+	 top:0px;
+	 background-color: rgba(0,0,0,.4);
+	 width: 100%;
+	 height: 100%;
+	 padding: 15px;
+	 box-sizing: border-box;
+	 transition: opacity 1s; /* tempo para ezibição de um segundo*/
+	 
+	 }
+	 
+	   figure.foto-legenda:hover figcaption{
+		   opacity:1; /* faz aparecer o texto temporariamente*/
+		   
+	   }
+	   
+	/* Formatação de menu*/
+nav#menu {
+	display: block;
+}
+nav#menu ul{
+	list-style: none; /*deicha o menu sem os marcadores/os pontinhos */
+	text-trasform: uppercase; /* deixa as palavras todas em maiusculas*/
+	position: absolute; 
+	top:-12px;  /* top e left indica a posição da barra de menu*/
+	left: 490px; 
+}	
+nav#menu li{
+	display: inline-block;
+	background-color: #dddddd; /*cor das bordas da letra*/
+	padding: 15px; /*aumenta o espaço entre as palavras*/
+	margin: 2px;
+	transition: background-color 1s; /* tempo que leva para o botão mudar de cor*/
+	
+}	   
+
+nav#menu li:hover{
+	background-color:rgb(17, 216, 237); /*cor do butão ao passar o mouse*/
+	
+}
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a {
+	color: #000000; /*cor da palavra*/
+	text-decoration: none; /*tira o sublinhado da palavra*/
+	
+}
+
+nav#menu a:hover{
+	color:#ffffff; /*deixa a palavra com a cor branca ao passar com o mouse*/
+	
+			
+			text-decoration: underline; /*deixa a palavra sublinhada ao passar com o mouse*/
+	
+}
+
+section#corpo{
+	
+	display: block; /*transforma em bloco o corpo ou section do html*/
+	width: 500px; /* define a largura do bloco */
+	float: left;
+	border-right: 1px solid #606060; /*espessura tipo cor da linha*/
+	padding-right: 15px; /*largura da linha*/
+}
+
+article#noticia-principal h2{
+	
+	font-size: 13pt;
+	color #606060;
+	background-color: #dddddd;
+	padding:5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+		
+}
+
+header#cabecalho-artigo h1{
+	font-family:'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+header#cabecalho-artigo h2{
+	color: #cecece;
+	background-color: #ffffffff;
+	margin: 0px;
+	
+}
+
+header#cabecalho-artigo h3{
+	font-size: 12px;
+	color: #606060;
+	
+}
+
+.direita{
+	 text-align: right;
+}
+
+table#tabelaspec{ /*tabela*/
+	 border: 2px solid #606060; /* espesura da linha externa, tipo de linha, cor*/
+	 
+	 
+	 border-Spacing: 0px; /* espaço entre as celulas*/
+	 margin-left: auto;
+	 margin-right: auto;
+	 
+}
+
+table#tabelaspec td{ 
+	border: 1px solid #606060; /* espesura da linha interna, tipo de linha, cor*/
+	padding: 10px; /*tamanho da tabela*/
+	text-align: left;
+	vertical-align: middle;
+}
+
+table#tabelaspec td.ce{
+	color: #ffffff;
+	background-color: #606060;
+	vertical-align: top; /* palavras na parte de cima das celulas*/
+	font-weight: bold; /* negrito*/
+}
+
+table#tabelaspec td.cd{
+	background-color:#cecece;
+	
+}
+
+table#tabelaspec caption{
+	color: #888888;
+	font-size: 13pt;
+	font-weight: bolder;
+	
+}
+
+table#tabelaspec caption span{
+	display: block;
+	float: right;
+	color: black;
+	font-size: 8px;
+	margin-top: 10px;
+	
+}
+
+aside#lateral{
+	display: block; /*transforma em bloco a lateral ou aside do html*/
+	width: 350px; /* define a largura do bloco */
+	float: right;
+	background-color: #dddddd;
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+aside#lateral h1{
+	font-family:'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color:#606060;       
+	margin-top: 0px;
+}
+
+aside#lateral h2{
+	background-color: #606060;
+	font-size: 13pt;
+	color: #ffffff;
+}
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p{ /*colocando o paragrafo do rodape centralizado*/
+	text-align: center;
+}
+
+	   
+	   /*fiz ate a aula ---> 28*/
+	   /*fiz ate a aula ---> 28*/
+	     

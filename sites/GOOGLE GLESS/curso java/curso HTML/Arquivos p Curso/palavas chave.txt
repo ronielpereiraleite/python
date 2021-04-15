@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title> Roniel </title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+<br/>	quebra de linhas
+
+&nbsp;	dar espaços entre as palavras
+
+<p> </p>	paragrafo
+
+<b> </b>	negrito
+
+<i> </i>	deicha a letra torta
+
+<em> </em>	dar enfaze a palavra
+
+<del> </del>	risca a palavra
+
+<span style="text-decoration:underline;">    </span>	risca a baixo do texto
+
+<span style="text-decoration:overline;">    </span>	risca a cima do  texto
+
+<span style="text-decoration: line-through;">    </span>	risca o  texto
+
+<span style="font-weight: bold;">    </span>	negrito
+
+<span style="font-weight: bolder;">    </span>	mais negrito que o normal
+
+<span style="text-align: center;">    </span>	centralizar texto	
+
+<span style="text-align: right;">    </span>	alinhamento de texto a direita 
+
+<span style="text-align: ledt;">    </span>	texto padrão
+
+<span style="text-indent: 50px;">    </span>	indentação do paragrafo
+
+<body style="background-color: blue";>	</span> cor do texto
+
+para acessar uma pasta coloque o nome dela mais / e para voltar uma pasta ../ e assim sucesivamente
+
+variavel ou tag{
+	color:red;
+		} cor da letra
+
+
+para listas não ordenadas  <ul>  
+			     <li> todos os  </li> 
+			     <li> itens com </li> 
+			</ul>
+<ul type="square">
+	listas não ordenadas com ponto de quadrado
+</ul>
+
+<ul type="circle">
+	listas não ordenadas com ponto de circulo
+</ul>
+
+para listas ordenadas  <ol>  
+			     <li> todos os  </li> 
+			     <li> itens com </li> 
+			</ol>
+
+
+<ol type="A" start="1">  	PARA LETRAS onumero 1 indica a letra que vai comessar 	</ol>
+
+
+<ol type="i" start="1">   	PARA numeros romanos onumero 1 indica o numero que vai comessar 	</ol>
+
+<a href="http://glass.google.com" target="_blank"> palavras do texo referente ao link </a>
+	sem  target="_blank" abre outra pagina na mesma que esta aberta.
+
+JavaScript
+com a função onclick aparece uma mensagem quando clica na foto,exeplo com a função acendeLampada:  onclick="acendeLampada()"
+
+com a função onmousemove aparece uma mensagem quando omause passa por sima da foto,exeplo com a função acendeLampada:  onmousemove="acendeLampada()"
+
+
+
+
