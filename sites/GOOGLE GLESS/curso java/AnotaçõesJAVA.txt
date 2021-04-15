@@ -1,5 +1,0 @@
-Funções e Metodos
-
-[modificador] [tipo] nome(){
-//corpo();
-};
